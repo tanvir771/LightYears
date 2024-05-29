@@ -26,10 +26,34 @@ void ly::Application::Run()
 		accumulatedTime += mTickClock.restart().asSeconds();
 		while (accumulatedTime > targetDeltaTime) {
 			accumulatedTime -= targetDeltaTime;
-			Tick(targetDeltaTime);
-			Render();
+			TickInternal(targetDeltaTime);
+			RenderInternal();
 		}
 	}
+}
+
+void ly::Application::TickInternal(float deltaTime)
+{
+	Tick(deltaTime);
+}
+
+void ly::Application::RenderInternal()
+{
+	mWindow.clear();
+
+	Render();
+
+	mWindow.display();
+}
+
+void ly::Application::Render()
+{
+	sf::RectangleShape rect{ sf::Vector2f{100,100} };
+	rect.setFillColor(sf::Color::Green);
+	rect.setOrigin(50, 50);
+	rect.setPosition(mWindow.getSize().x / 2.f, mWindow.getSize().y / 2.f);
+
+	mWindow.draw(rect);
 }
 
 void ly::Application::Tick(float deltaTime)
@@ -37,8 +61,4 @@ void ly::Application::Tick(float deltaTime)
 	std::cout << "ticking at framerate: " << 1.f / deltaTime << std::endl;
 }
 
-void ly::Application::Render()
-{
-
-}
 
