@@ -1,5 +1,5 @@
-#include <iostream>
 #include "framework/Application.h"
+#include <framework/Core.h>
 
 ly::Application::Application() : 
 	mWindow{ sf::VideoMode(512,720), "Light Years" },
@@ -58,7 +58,7 @@ void ly::Application::Render()
 
 void ly::Application::Tick(float deltaTime)
 {
-	std::cout << "ticking at framerate: " << 1.f / deltaTime << std::endl;
+	 LOG("ticking at framerate: %f", 1.f / deltaTime);
 }
 
 
