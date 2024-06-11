@@ -1,0 +1,150 @@
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-UPDATE.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-BUILD.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-INSTALL.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\562135D05C686C827CD2D011C26C74B6\SFML-POPULATE-TEST.RULE
+setlocal
+cd E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\7CBC40222A5D6E9F06F3948E38468EE2\SFML-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\1159690873FB354922A919EEDC856AF1\SFML-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild -BE:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild --check-stamp-file E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

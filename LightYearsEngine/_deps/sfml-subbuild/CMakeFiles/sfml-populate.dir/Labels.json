@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/1159690873fb354922a919eedc856af1/sfml-populate.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/7cbc40222a5d6e9f06f3948e38468ee2/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-build.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-download.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-install.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-test.rule"
+		},
+		{
+			"file" : "E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

@@ -1,0 +1,10 @@
+^E:\PROJECTS\UDEMY\LIGHTYEARS\LIGHTYEARS\_DEPS\SFML-SUBBUILD\CMAKEFILES\1159690873FB354922A919EEDC856AF1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild -BE:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/sfml-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

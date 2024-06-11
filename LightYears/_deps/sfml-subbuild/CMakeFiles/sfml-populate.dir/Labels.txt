@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/1159690873fb354922a919eedc856af1/sfml-populate.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/7cbc40222a5d6e9f06f3948e38468ee2/sfml-populate-complete.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-build.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-configure.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-download.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-install.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-mkdir.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-patch.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-test.rule
+E:/Projects/Udemy/LightYears/LightYears/_deps/sfml-subbuild/CMakeFiles/562135d05c686c827cd2d011c26c74b6/sfml-populate-update.rule

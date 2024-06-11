@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6AC336C4-D044-36CF-9C24-67BD0D6B7C3F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\e20a398c57bf088dd71a1f869a2e9bdc\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears -BE:/Projects/Udemy/LightYears/LightYears --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Projects/Udemy/LightYears/LightYears/LightYears.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenAL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\Projects\Udemy\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeSystem.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Config.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Macros.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFreetype.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindVorbis.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfig.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Main\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Network\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\System\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Main\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Graphics\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\LightYears\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears -BE:/Projects/Udemy/LightYears/LightYears --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Projects/Udemy/LightYears/LightYears/LightYears.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenAL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\Projects\Udemy\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeSystem.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Config.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Macros.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFreetype.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindVorbis.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfig.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Main\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Network\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\System\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Main\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Graphics\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\LightYears\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears -BE:/Projects/Udemy/LightYears/LightYears --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Projects/Udemy/LightYears/LightYears/LightYears.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenAL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\Projects\Udemy\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeSystem.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Config.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Macros.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFreetype.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindVorbis.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfig.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Main\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Network\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\System\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Main\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Graphics\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\LightYears\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Projects/Udemy/LightYears -BE:/Projects/Udemy/LightYears/LightYears --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Projects/Udemy/LightYears/LightYears/LightYears.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenAL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;E:\Projects\Udemy\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\3.29.3\CMakeSystem.cmake;E:\Projects\Udemy\LightYears\LightYears\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Config.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Macros.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindFreetype.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\Modules\FindVorbis.cmake;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfig.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Graphics\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Main\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Network\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\System\CMakeLists.txt;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-src\src\SFML\Window\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\Udemy\LightYears\LightYears\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Main\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Graphics\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp;E:\Projects\Udemy\LightYears\LightYears\LightYears\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

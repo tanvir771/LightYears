@@ -21,5 +21,7 @@ FetchContent_DECLARE(
 
 FetchContent_MakeAvailable(${SFML_LIB_NAME})
 
+set(LIGHT_YEARS_ENGINE_TARGET_NAME LightYearsEngine)
 set(LIGHT_YEARS_GAME_TARGET_NAME LightYearsGame)
-add_subdirectory(LightYears)
+add_subdirectory(LightYearsEngine)
+add_subdirectory(LightYearsGame)
