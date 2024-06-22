@@ -1,10 +1,12 @@
 #include "framework/Application.h"
 #include <framework/Core.h>
+#include <framework/World.h>
 
 ly::Application::Application() : 
 	mWindow{ sf::VideoMode(512,720), "Light Years" },
 	mTargetFrameRate{60.f},
-	mTickClock{} // defualt constructor
+	mTickClock{}, // defualt constructor,
+	currentWorld{nullptr}
 {
 }
 
@@ -35,6 +37,10 @@ void ly::Application::Run()
 void ly::Application::TickInternal(float deltaTime)
 {
 	Tick(deltaTime);
+	if (currentWorld) {
+		currentWorld->BeginPlayInternal();
+		currentWorld->TickInternal(deltaTime);
+	}
 }
 
 void ly::Application::RenderInternal()
@@ -58,7 +64,7 @@ void ly::Application::Render()
 
 void ly::Application::Tick(float deltaTime)
 {
-	 LOG("ticking at framerate: %f", 1.f / deltaTime);
+	 
 }
 
 
